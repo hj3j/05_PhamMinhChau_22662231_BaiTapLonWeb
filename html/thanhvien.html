@@ -51,7 +51,7 @@
 
 
             function kiemTraEmail(){
-                let mauma = /^[A-Za-z]{1}[A-Za-z]+@gmail.com$/;
+                let mauma = /^[A-Za-z]{1}[A-Za-z0-9]+@gmail.com$/;
                 let chuoima = $("#txtEmail").val();
                 let kq = mauma.test(chuoima);
                 if(kq==true){
